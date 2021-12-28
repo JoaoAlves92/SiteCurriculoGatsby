@@ -1,0 +1,73 @@
+.banner {
+    &__container {
+        background: linear-gradient(rgba(34,34,34,0.9), rgba(0,0,0,0.7));
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__perfil-img {
+        width: 260px;
+        border: 10px solid rgb(113, 194, 109);
+        border-radius: 200px;
+        box-shadow: 0 0 0 25px rgba(35, 129, 26, 0.3);
+        z-index: 1;
+    }
+
+    &__card-principal {
+        color: white;
+        width: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &__informacoes {
+        background-color: rgb(34,34,34);
+        width: 38vw;
+        text-align: center;
+        padding: 130px 20px 40px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+        margin-top: -70px;
+    }
+    
+    &__informacoes h2{
+        font-size: 26px;
+        font-weight: bold;
+    }
+    
+    &__informacoes p {
+        font-size: 16px;
+    }
+    
+    &__informacoes a {
+        color: white;
+        margin: 0px 10px;
+        padding: 5px;
+    }
+    
+    &__informacoes a svg {
+        border: 1px solid white;
+        border-radius: 50px;
+        padding: 10px;
+        transition: 0.5s;
+    }
+    
+    &__informacoes a svg:hover {
+        color: rgb(113, 194, 109);
+        border-color: rgb(113, 194, 109);
+    }
+
+    @media (max-width: 768px) {
+        &__perfil-img {
+            width: 224px;
+        }
+
+        &__informacoes {
+            width: 72vw;
+        }
+    }
+}

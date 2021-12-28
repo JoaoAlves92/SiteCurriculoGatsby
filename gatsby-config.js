@@ -10,7 +10,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        //icon: "src/images/icon.png",
+        icon: "src/images/icons8-monitor-64.png"
       },
     },
     "gatsby-plugin-sharp",

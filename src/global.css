@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cor-destaque {
+    color: #60C85B;
+}
+
+.clear {
+    clear: both;
+}
+
+.titulo-section {
+    margin: 0 auto;
+    color: white;
+    border-bottom: 2px solid rgb(113, 194, 109);
+    text-align: center;
+    width: 12vw;
+    padding: 4% 0 1%;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .titulo-section {
+        width: fit-content;
+    }
+}
