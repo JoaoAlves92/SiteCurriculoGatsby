@@ -1,0 +1,19 @@
+.titulo-section {
+  margin: 0 auto;
+  color: white;
+  border-bottom: 2px solid #71c26d;
+  text-align: center;
+  width: 12vw;
+  padding: 2% 0 1%;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .titulo-section {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 4% 0 1%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
