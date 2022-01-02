@@ -12,6 +12,7 @@ import Header from "../components/Header";
 import Banner from "../components/Banner";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
+import Projects from "../components/Projects";
 
 const IndexPage = () => {
   return (
@@ -29,6 +30,7 @@ const IndexPage = () => {
       <Banner/>
       <AboutMe/>
       <Skills/>
+      <Projects/>
       <BackToTop
         mainStyle={{
             width:'100%',

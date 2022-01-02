@@ -12,7 +12,7 @@ const Header = () => {
                 <div className="header__lista-links">
                     <a href="/#AboutMe" rel="noopener noreferrer">Sobre mim</a>
                     <a href="/#Skills" rel="noopener noreferrer">Habilidades</a>
-                    <a href="/#" rel="noopener noreferrer">Projetos</a>
+                    <a href="/#Projects" rel="noopener noreferrer">Projetos</a>
                     <a href="/#" rel="noopener noreferrer">Contato</a>
                 </div>
                 {/* <i id="menu" className="fas fa-bars" style={{fontSize: "26px"}}></i> */}
@@ -28,7 +28,7 @@ const Header = () => {
                 <div className="header__drawer__links">
                     <AnchorLink to="/#AboutMe" onAnchorLinkClick={() => setShowPanel(false)}>Sobre mim</AnchorLink>
                     <AnchorLink to="/#Skills" onAnchorLinkClick={() => setShowPanel(false)}>Habilidades</AnchorLink>
-                    <AnchorLink to="/#" onAnchorLinkClick={() => setShowPanel(false)}>Projetos</AnchorLink>
+                    <AnchorLink to="/#Projects" onAnchorLinkClick={() => setShowPanel(false)}>Projetos</AnchorLink>
                     <AnchorLink to="/#" onAnchorLinkClick={() => setShowPanel(false)}>Contato</AnchorLink>
                 </div>
             </div>
