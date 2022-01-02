@@ -1,8 +1,12 @@
 .StarRating {
-  margin-top: 1rem;
+  margin: 1rem auto 0px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .StarRating__name {
   color: #fff;
+  text-align: left;
 }
 /*# sourceMappingURL=styles.css.map */

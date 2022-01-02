@@ -1,6 +1,9 @@
 .StarRating {
-    margin-top: 1rem;
+    margin: 1rem auto 0px;
+    width: max-content;
+
     &__name {
         color: #fff;
+        text-align: left;
     }
 }
