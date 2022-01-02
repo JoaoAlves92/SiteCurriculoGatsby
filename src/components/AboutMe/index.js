@@ -2,12 +2,13 @@ import React from "react";
 import "./styles.css";
 import { FaGamepad, FaVideo, FaHeadphones, FaHamburger, FaDownload } from 'react-icons/fa';
 import curriculo from '../../images/curriculo-joao-marangoni-1.pdf';
+import TitleSection from "../TitleSection";
 
 
 const AboutMe = () => {
     return(
         <section id="AboutMe" className="AboutMe">
-        <h2 className="titulo-section">Sobre Mim</h2>
+        <TitleSection text="Sobre Mim" />
         <div className="AboutMe__conteudo">
             <p className="AboutMe__text"><span className="cor-destaque">Olá, meu nome é João,</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum congue elit ultricies ultrices. Aenean quis diam consequat nulla vehicula sagittis sit amet id purus. Integer scelerisque odio ac ultricies porttitor. In non purus tristique, rhoncus turpis at, gravida turpis. Etiam malesuada rutrum sodales. Maecenas at faucibus arcu, non pharetra lectus. Nam condimentum velit a dui lobortis lacinia. Vestibulum interdum rutrum mi sit amet congue. Sed a magna finibus, pulvinar ligula blandit, ullamcorper tellus.</p>
             
