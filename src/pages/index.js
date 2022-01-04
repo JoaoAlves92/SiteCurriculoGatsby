@@ -3,8 +3,6 @@ import "../reset.css";
 import "../global.css";
 
 // Libs
-import BackToTop from 'react-back-to-top';
-import { FaArrowUp } from 'react-icons/fa';
 
 // Componentes
 import Header from "../components/Header";
@@ -12,34 +10,19 @@ import Banner from "../components/Banner";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
-import SEO from "../components/SEO";
+import Seo from "../components/Seo";
+import BackTop from '../components/BackTop';
 
 const IndexPage = () => {
   return (
     <main>
-      <SEO title="Portifólio" />
+      <Seo title="Portifólio" />
       <Header/>
       <Banner/>
       <AboutMe/>
       <Skills/>
       <Projects/>
-      <BackToTop
-        mainStyle={{
-            width:'100%',
-            height:'100%',
-            marginTop: '20px'
-        }}
-        percentStyle={{
-            display: 'none'
-        }}
-        animate='rotate'
-        offsetTop={0}
-        //step={50}
-        //percent={true}
-        //visiblePercent={50}
-      >
-        <FaArrowUp size={26} color="#60C85B"/>
-      </BackToTop>
+      <BackTop/>
     </main>
   )
 }
