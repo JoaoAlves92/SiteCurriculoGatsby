@@ -3,7 +3,6 @@ import "../reset.css";
 import "../global.css";
 
 // Libs
-import { Helmet } from 'react-helmet';
 import BackToTop from 'react-back-to-top';
 import { FaArrowUp } from 'react-icons/fa';
 
@@ -13,19 +12,12 @@ import Banner from "../components/Banner";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
+import SEO from "../components/SEO";
 
 const IndexPage = () => {
   return (
     <main>
-      <Helmet>
-          <meta charSet="utf-8" />
-          <title>Portifólio</title>
-          <meta name="author" content="João Alves"/>
-          <meta name="title" content="Joao Alves Portifolio Website"/>
-          <meta name="description" content="Portfolio Website built with GatsbyJS to pratice my skills as a FrontEnd developer!"/>
-          <meta http-equiv="content-language" content="pt-br"/>
-          <meta name="reply-to" content="jvamarangonia@gmail.com"/>
-      </Helmet>
+      <SEO title="Portifólio" />
       <Header/>
       <Banner/>
       <AboutMe/>
@@ -46,7 +38,7 @@ const IndexPage = () => {
         //percent={true}
         //visiblePercent={50}
       >
-        <FaArrowUp size={26} />
+        <FaArrowUp size={26} color="#60C85B"/>
       </BackToTop>
     </main>
   )
