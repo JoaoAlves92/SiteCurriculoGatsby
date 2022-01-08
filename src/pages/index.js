@@ -10,13 +10,13 @@ import Banner from "../components/Banner";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
-import Seo from "../components/Seo";
+import SEO from "../components/SEO";
 import BackTop from '../components/BackTop';
 
 const IndexPage = () => {
   return (
     <main>
-      <Seo title="Portifólio" />
+      <SEO title="Portifólio" />
       <Header/>
       <Banner/>
       <AboutMe/>
